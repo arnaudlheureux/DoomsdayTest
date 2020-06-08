@@ -1,0 +1,37 @@
+<MyWidget>:
+	title: 'Doomsday Algorithm Test'
+    BoxLayout:
+        size: root.size
+        orientation: "vertical"
+        Label:
+            id: displayID
+            text: root.display
+        BoxLayout:
+	        Button:
+	            id: button0
+	            text: "Sunday"
+	            on_release: root.answer(0)
+	        Button:
+	            id: button1
+	            text: "Monday"
+	            on_release: root.answer(1)
+	        Button:
+	            id: button2
+	            text: "Tuesday"
+	            on_release: root.answer(2)
+			Button:
+	            id: button3
+	            text: "Wednesday"
+	            on_release: root.answer(3)
+	        Button:
+	            id: button4
+	            text: "Thursday"
+	            on_release: root.answer(4)
+	    	Button:
+	            id: button5
+	            text: "Friday"
+	            on_release: root.answer(5)
+	        Button:
+	            id: button6
+	            text: "Saturday"
+	            on_release: root.answer(6)
