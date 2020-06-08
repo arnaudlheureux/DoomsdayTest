@@ -6,4 +6,8 @@ To run, simply execute : `python3 main.py`
 
 Here is what it looks like :
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/arnaudlheureux/DoomsdayTest/blob/master/success.png)
+
+If you get it wrong, the year's doomsday will appear helping you tracking down where you went wrong in your reasoning:
+
+![alt text](https://github.com/arnaudlheureux/DoomsdayTest/blob/master/fail.png)
